@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "seedxray",
+  "version": "${version}",
+  "name": "Seed X-Ray",
+  "description": "Predicts ore veins from a fixed world seed and highlights them through walls.",
+  "environment": "client",
+  "entrypoints": { "client": ["dev.seedxray.SeedXrayClient"] },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
